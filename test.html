@@ -10,16 +10,28 @@
 
 <body>
     <script>
-// sourceCode：
-        var n = parseInt(window.prompt("input"));
+ // sourceCode：
+ var n = parseInt(window.prompt("input"));
         var m = parseInt(window.prompt("input"));
         function demo(i) {
-            console.log(i + m);
+            document.write(i + m);
         }
         demo(n);
-//n是可输入的实参；
-// m是可输入的值；
-// 实参n 传给形参i 加上可输入的m 实现简单的加法计算器
+        //n是可输入的实参；
+        // m是可输入的值；
+        // 实参n 传给形参i 加上可输入的m 实现简单的两个数加法计算器
+        // 实参n 传给形参i 加上可输入的m 实现简单的两个数加法计算器
+        // 多个数相加 可增加可输入代码：
+
+        var n = parseInt(window.prompt("input"));
+        var m = parseInt(window.prompt("input"));
+        var a = parseInt(window.prompt("input"));
+        var b = parseInt(window.prompt("input"));
+
+        function demo(i) {
+            document.write(i + m + a + b);
+        }
+        demo(n);
     </script>
 </body>
 
